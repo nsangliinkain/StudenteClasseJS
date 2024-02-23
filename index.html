@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studente</title>
+    <script src="js/app.js"></script>
+</head>
+<body>
+    <form onsubmit="event.preventDefault(); istanziaStudente(); reset();">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+        <label for="cognome">Cognome</label>
+        <input type="text" id="cognome" name="cognome"><br><br>
+        <label for="eta">Età</label>
+        <input type="text" id="eta" name="eta"><br><br>
+        <label for="matricola">Matricola</label>
+        <input type="text" id="matricola" name="matricola"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p id="lista"> Studenti presenti: </p>
+</body>
+</html>
